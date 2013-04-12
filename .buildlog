@@ -1,0 +1,55 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/index.html","to":"web/out/index.html"}}]
+Total time spent on web/index.html                           -- 554 ms
+Total time                                                   -- 572 ms
+build.dart finished [1125 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/index.html","to":"web/out/index.html"}}]
+Total time spent on web/index.html                           -- 606 ms
+Total time                                                   -- 631 ms
+build.dart finished [1269 ms]
+
+---
+build.dart --machine --changed=web/out/app.html.dart --changed=web/out/app.html.dart.map --changed=web/out/base...
+Total time                                                   --  27 ms
+build.dart finished [1615 ms]
+
+---
+build.dart --machine --changed=tool/hop_runner.dart
+[{"method":"mapping","params":{"from":"web/index.html","to":"web/out/index.html"}}]
+Total time spent on web/index.html                           -- 571 ms
+Total time                                                   -- 593 ms
+build.dart finished [3515 ms]
+
+---
+build.dart --machine --changed=web/out/app.html.dart --changed=web/out/app.html.dart.map --changed=web/out/base...
+Total time                                                   --  17 ms
+build.dart finished [527 ms]
+
+---
+build.dart --machine --changed=tool/hop_runner.dart
+[{"method":"mapping","params":{"from":"web/index.html","to":"web/out/index.html"}}]
+Total time spent on web/index.html                           -- 508 ms
+Total time                                                   -- 535 ms
+build.dart finished [1859 ms]
+
+---
+build.dart --machine --changed=web/out/app.html.dart --changed=web/out/app.html.dart.map --changed=web/out/base...
+Total time                                                   --  90 ms
+build.dart finished [734 ms]
+
+---
+build.dart --machine --changed=tool/hop_runner.dart
+[{"method":"mapping","params":{"from":"web/index.html","to":"web/out/index.html"}}]
+Total time spent on web/index.html                           -- 511 ms
+Total time                                                   -- 540 ms
+build.dart finished [1102 ms]
+
+---
+build.dart --machine --changed=web/out/app.html.dart --changed=web/out/app.html.dart.map --changed=web/out/base...
+Total time                                                   --  24 ms
+build.dart finished [740 ms]
+
